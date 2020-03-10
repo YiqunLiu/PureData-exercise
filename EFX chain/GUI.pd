@@ -1,0 +1,17 @@
+#N canvas 155 114 893 488 12;
+#X obj 39 19 cnv 15 200 330 empty empty empty 20 12 0 14 -228856 -66577
+0;
+#X text 275 27 A synthesiser combining filters and modulation methods.
+The LowPass and HighPass functions adjust the audio spectrum \; the
+tremolo function adds a trembling effct to the sound \; the vibrato
+function gives a slightly pitch vibration. The default effect is only
+one moderate tremolo.;
+#X text 274 119 Click "Load" to load the sound file. Then click "On/Off"
+to play/stop the audio. Load the sound file before every play.;
+#X text 273 186 LowPass: 200~2000Hz (initial 1500);
+#X text 274 206 HighPass: 200~2000Hz (initial 500);
+#X text 274 226 Tremolo: 0~15Hz (initial 8Hz);
+#X text 276 246 Vibrato: 0~10Hz (initial 0);
+#X text 275 266 Depth: 0~1.5 (initial 0);
+#X text 273 166 Parameters:;
+#X obj 39 19 synthesizer;
